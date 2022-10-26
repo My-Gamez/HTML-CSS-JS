@@ -149,3 +149,6 @@ function upfun(){
 function downfun(){
     by+=speedb;
 }
+function replay(){
+    window.location.href = " https://my-gamez.github.io/file/MyBird/";
+}
