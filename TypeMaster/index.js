@@ -27,7 +27,7 @@ document.onkeydown = function (e) {
             document.getElementById('check').style.borderStyle="inset";
             document.getElementById('check').style.borderColor="#006400";
             setTimeout(() => {
-                window.location.href="https://My-Gamez.github.io/file/TypeMaster";
+                window.location.href="https://My-Gamez.github.io/file/TypeMaster/";
             }, 2000);
             let element=document.getElementById('check');
             element.classList.add('checkani');
