@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    background-color: black;
+}
+.myDiv{
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 100px;
+    height: 100px;
+    border: none;
+}
+#div1{
+    background-color: yellow;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+#div2{
+    background-color: pink;
+    position: absolute;
+    top: 40px;
+    left: 500px;
+}
+#div3{
+    background-color: greenyellow;
+    position: absolute;
+    top: 190px;
+    left: 350px;
+}
+#div4{
+    background-color: aqua;
+    position: absolute;
+    top: 290px;
+    left: 10px;
+}
+#div5{
+    background-color: whitesmoke;
+    position: absolute;
+    top: 450px;
+    left: 200px;
+}
+#div6{
+    background-color: antiquewhite;
+    position: absolute;
+    top: 400px;
+    left: 540px;
+}
+.class1{
+    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 50px aqua, 0 0 100px aqua;
+}
+.class2{
+    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 50px aqua, 0 0 100px aqua;
+}
+.class3{
+    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 50px aqua, 0 0 100px aqua;
+}
+.class4{
+    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 50px aqua, 0 0 100px aqua;
+}
+.class5{
+    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 50px aqua, 0 0 100px aqua;
+}
+.class6{
+    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 50px aqua, 0 0 100px aqua;
+}
