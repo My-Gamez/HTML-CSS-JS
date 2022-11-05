@@ -131,59 +131,48 @@ function check(){
         s1.style.backgroundColor = "green";
         s2.style.backgroundColor = "green";
         s3.style.backgroundColor = "green";
-        document.getElementById('replay').style.display = "block";
     }
     if(text==s4.innerText && text==s5.innerText && text==s6.innerText){
         document.getElementById('win').innerText = text+" won";
         s4.style.backgroundColor = "green";
         s5.style.backgroundColor = "green";
         s6.style.backgroundColor = "green";
-        document.getElementById('replay').style.display = "block";
     }
     if(text==s7.innerText && text==s8.innerText && text==s9.innerText){
         document.getElementById('win').innerText = text+" won";
         s7.style.backgroundColor = "green";
         s8.style.backgroundColor = "green";
         s9.style.backgroundColor = "green";
-        document.getElementById('replay').style.display = "block";
     }
     if(text==s1.innerText && text==s4.innerText && text==s7.innerText){
         document.getElementById('win').innerText = text+" won";
         s1.style.backgroundColor = "green";
         s4.style.backgroundColor = "green";
         s7.style.backgroundColor = "green";
-        document.getElementById('replay').style.display = "block";
     }
     if(text==s2.innerText && text==s5.innerText && text==s8.innerText){
         document.getElementById('win').innerText = text+" won";
         s2.style.backgroundColor = "green";
         s5.style.backgroundColor = "green";
         s8.style.backgroundColor = "green";
-        document.getElementById('replay').style.display = "block";
     }
     if(text==s3.innerText && text==s6.innerText && text==s9.innerText){
         document.getElementById('win').innerText = text+" won";
         s3.style.backgroundColor = "green";
         s6.style.backgroundColor = "green";
         s9.style.backgroundColor = "green";
-        document.getElementById('replay').style.display = "block";
     }
     if(text==s1.innerText && text==s5.innerText && text==s9.innerText){
         document.getElementById('win').innerText = text+" won";
         s1.style.backgroundColor = "green";
         s5.style.backgroundColor = "green";
         s9.style.backgroundColor = "green";
-        document.getElementById('replay').style.display = "block";
     }
     if(text==s3.innerText && text==s5.innerText && text==s7.innerText){
         document.getElementById('win').innerText = text+" won";
         s3.style.backgroundColor = "green";
         s5.style.backgroundColor = "green";
         s7.style.backgroundColor = "green";
-        document.getElementById('replay').style.display = "block";
-    }
-    if(s1.innerText == text && s2.innerText == text && s3.innerText == text && s4.innerText == text && s5.innerText == text && s6.innerText == text && s7.innerText == text && s8.innerText == text && s9.innerText == text){
-        document.getElementById('replay').style.display = "block";
     }
 }
 function replay(){
