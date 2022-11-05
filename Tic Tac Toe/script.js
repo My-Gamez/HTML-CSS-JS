@@ -182,6 +182,9 @@ function check(){
         s7.style.backgroundColor = "green";
         document.getElementById('replay').style.display = "block";
     }
+    if(s1.innerText == text && s2.innerText == text && s3.innerText == text && s4.innerText == text && s5.innerText == text && s6.innerText == text && s7.innerText == text && s8.innerText == text && s9.innerText == text){
+        document.getElementById('replay').style.display = "block";
+    }
 }
 function replay(){
     window.location.href = "http://my-gamez.github.io/file/Tic Tac Toe/";
