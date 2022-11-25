@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('img.jpg');
+    color: white;
+}
+#number{
+    font-size: 7em;
+    position: absolute;
+    left: 42vw;
+    top: 42vh;
+    text-shadow: 0 0 1px white,0 0 5px white,0 0 10px white,0 0 20px rgb(0, 217, 255),0 0 30px rgb(4, 175, 243);
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Analog Clock</title>
+</head>
+<style>
+body{
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 600px;
+  font-family: cursive;
+  font-size: 30px;
+  border: 2px solid black;
+}
+  #time,#date{
+    text-shadow: 0 0 10px white,0 0 20px white,0 0 50px cyan,0 0 60px cyan,0 0 80px cyan;
+  }
+</style>
+<body>
+<h1 id="time"></h1>
+<h1 id="date"></h1>
+</body>
+ <script>
+ let myFun=function(){
+   let d=new Date();
+   let time=d.getHours()+":"+d.getMinutes()+":"+d.getSeconds();
+   let date=d.toLocaleDateString();
+   document.querySelector('#time').innerHTML=time;
+   document.querySelector('#date').innerHTML=date;
+ };
+ setInterval(myFun,1000);
+ </script>
+</html>
