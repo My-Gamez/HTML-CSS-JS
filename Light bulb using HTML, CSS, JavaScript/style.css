@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+#lightToggle{
+    position: absolute;
+    top: 15px;
+    left: 40%;
+    padding: 10px;
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aqua;
+    border-radius: 10px;
+    border: 3px solid rgb(1, 60, 60);
+}
+#bulb{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(121, 251, 251);
+}
+.light{
+    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px aqua, 0 0 50px aqua, 0 0 60px aqua;
+}

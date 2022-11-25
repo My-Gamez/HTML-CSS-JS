@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid rgb(2, 110, 114);
+    width: 50vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aquamarine;
+    border-radius: 10px;
+    box-shadow: 4px 5px rgb(171, 169, 169);
+}
+label{
+    margin: 15px;
+}
+input{
+    max-width: 50vw;
+    height: 30px;
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+}
+input:invalid{
+    animation: shake 0.5s linear;
+}
+@keyframes shake{
+    0%{transform: translateX(10px);}
+    50%{transform: translateX(-10px);}
+    0%{transform: translateX(10px);}
+}
