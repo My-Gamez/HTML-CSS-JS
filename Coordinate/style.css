@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+#print{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px aqua, 0 0 20px aqua;
+}
