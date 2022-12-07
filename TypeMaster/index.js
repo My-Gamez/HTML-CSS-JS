@@ -27,7 +27,7 @@ document.onkeydown = function (e) {
             document.getElementById('check').style.borderStyle="inset";
             document.getElementById('check').style.borderColor="#006400";
             setTimeout(() => {
-                window.location.href="https://My-Gamez.github.io/file/TypeMaster/";
+                window.location.href="https://My-Gamez.github.io/HTML-CSS-JS/TypeMaster/";
             }, 2000);
             let element=document.getElementById('check');
             element.classList.add('checkani');
@@ -41,7 +41,7 @@ document.onkeydown = function (e) {
             document.getElementById('check').style.borderStyle="inset";
             document.getElementById('check').style.borderColor="#800000";
             setTimeout(() => {
-                window.location.href="http://127.0.0.1:5500/index.html";
+                window.location.href="https://my-gamez.github.io/HTML-CSS-JS/TypeMaster/";
             }, 2000);
             let element=document.getElementById('check');
             element.classList.add('checkani');
