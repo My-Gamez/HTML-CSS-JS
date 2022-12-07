@@ -176,5 +176,5 @@ function check(){
     }
 }
 function replay(){
-    window.location.href = "http://my-gamez.github.io/file/Tic Tac Toe/";
+    window.location.href = "http://my-gamez.github.io/HTML-CSS-JS/Tic Tac Toe/";
 }
